@@ -15,29 +15,55 @@ body, html {
   height: auto;
 }
 
-button {
+/* Existing button styles */
+.map-button {
   position: absolute;
-  bottom: 1px;
+  bottom: 1px; /* Keep this for the first button */
   left: 50%;
   transform: translateX(-50%);
   padding: 10px 20px;
-  font-size: 16px;
+  font-size: 12px;
   border: none;
-  background-color: rgba(0, 0, 0, 0); /* Transparent background */
-  color: rgba(174, 110, 84, 1); /* Text color with full opacity */
+  background-color: rgba(0, 0, 0, 0);
+  color: rgba(174, 110, 84, 1);
   cursor: pointer;
-  transition: background-color 0.3s; /* Add transition for hover effect */
+  transition: background-color 0.3s;
 }
 
-button a {
-  color: rgba(174, 110, 84, 1); /* Text color for the anchor tag */
-  text-decoration: underline; /* Add underline to mimic a link */
+.map-button a {
+  color: rgba(174, 110, 84, 1);
+  text-decoration: underline;
+}
+
+.map-button:hover {
+  background-color: rgba(174, 110, 84, 0.1);
+}
+
+/* Additional button styles */
+#deedarBtn {
+  position: absolute;
+  bottom: 25px; /* Adjust this to your desired position */
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 20px;
+  font-size: 12px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  color: rgba(174, 110, 84, 1);
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#deedarBtn a {
+  color: rgba(174, 110, 84, 1);
+  text-decoration: underline;
+}
+
+#deedarBtn:hover {
+  background-color: rgba(174, 110, 84, 0.1);
 }
 
 
-button:hover {
-  background-color: rgba(174, 110, 84, 0.1); /* Semi-transparent background color on hover */
-}
 
 
 
