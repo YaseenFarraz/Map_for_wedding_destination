@@ -1,0 +1,44 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #c2b7ae;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+}
+
+.wedding-card {
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  position: absolute;
+  bottom: 1px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0); /* Transparent background */
+  color: rgba(174, 110, 84, 1); /* Text color with full opacity */
+  cursor: pointer;
+  transition: background-color 0.3s; /* Add transition for hover effect */
+}
+
+button a {
+  color: rgba(174, 110, 84, 1); /* Text color for the anchor tag */
+  text-decoration: underline; /* Add underline to mimic a link */
+}
+
+
+button:hover {
+  background-color: rgba(174, 110, 84, 0.1); /* Semi-transparent background color on hover */
+}
+
+
+
+
