@@ -35,14 +35,11 @@ body, html {
   text-decoration: underline;
 }
 
-.map-button:hover {
-  background-color: rgba(174, 110, 84, 0.1);
-}
 
 /* Additional button styles */
 #deedarBtn {
   position: absolute;
-  bottom: 35px; /* Adjust this to your desired position */
+  bottom: 45px; /* Adjust this to your desired position */
   left: 50%;
   transform: translateX(-50%);
   padding: 10px 20px;
@@ -59,9 +56,6 @@ body, html {
   text-decoration: underline;
 }
 
-#deedarBtn:hover {
-  background-color: rgba(174, 110, 84, 0.1);
-}
 
 
 
