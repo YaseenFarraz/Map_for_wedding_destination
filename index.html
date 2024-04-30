@@ -28,6 +28,12 @@
             height: 60px;
             animation: spin 1s linear infinite;
         }
+
+        .loading-text {
+            margin-top: 20px;
+            font-size: 16px;
+            color: rgba(174, 110, 84, 1); /* Adjust color to match your design */
+        }
         
         @keyframes spin {
             0% { transform: rotate(0deg); }
@@ -39,6 +45,7 @@
     <!-- Loading overlay -->
     <div class="loading-overlay">
         <div class="loading-spinner"></div>
+        <div class="loading-text">Please wait...</div>
     </div>
 
     <div class="container" style="display: none;"> <!-- Hide the content initially -->
